@@ -8,11 +8,15 @@
     var msg = document.getElementById("message").value.trim();
 
     if(uname === '' || sub === '' || msg === '')
+      
     {
         alert("Some fields are empty.")
         return false
-    }
-    else{
-return true;
-    }
+      }
+
+    else
+        
+        {
+          return true;
+        }
   }
